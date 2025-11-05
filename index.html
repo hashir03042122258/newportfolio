@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <nav class="main-navbar">
+        <a href="#home" title="Home"><i class="icon-home"></i></a>
+        <a href="about.html" title="About"><i class="icon-user"></i></a>
+        <a href="skills.html" title="Skills"><i class="icon-skills"></i></a>
+        <a href="projects.html" title="Projects"><i class="icon-projects"></i></a>
+        <a href="contact.html" title="Contact"><i class="icon-mail"></i></a>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <main class="content">
+        <section class="home-section">
+            <div class="home-grid">
+                <div class="home-left">
+                    <h1 class="main-heading">
+                        ASSALAMALAIKUM<br>
+                        I AM <span class="highlight">MUHAMMAD HASHIR</span>
+                    </h1>
+                    <div class="animated-role">
+                        <span id="role-text"></span>
+                    </div>
+                    <p class="main-desc">
+                        I am a web designer and developer. I will build a website for you and solve your problems.
+                    </p>
+                    <a href="contact.html" class="cta-btn">Contact Me</a>
+                    <a href="Hashir CV4.pdf" class="cta-btn" target="_blank" style="margin-left: 12px;">View CV</a>
+                    <div class="quick-stats">
+                        <div><span class="stat-num" data-target="4">0</span><span class="stat-label">Projects</span></div>
+                        <div><span class="stat-label">Always Learning</span></div>
+                        <div><span class="stat-label">Ready for New Challenges</span></div>
+                    </div>
+                    <div class="skills-badges">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>PHP</span><span>Laravel</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" title="LinkedIn" class="icon-linkedin"></a>
+                        <a href="#" title="GitHub" class="icon-github"></a>
+                        <a href="mailto:your@email.com" title="Email" class="icon-mail"></a>
+                    </div>
+                    <div class="scroll-indicator">
+                        <span class="scroll-arrow">&#8595;</span>
+                        <span class="scroll-text">Scroll Down</span>
+                    </div>
+                </div>
+                <!-- Mobile profile image (only visible on mobile) -->
+                <div class="mobile-profile-img">
+                    <img src="hashirpic.jpg" alt="My Profile Picture" class="profile-pic-modern">
+                </div>
+                <div class="home-right desktop-profile-img">
+                    <div class="profile-bg" data-tilt>
+                        <img src="hashirpic.jpg" alt="My Profile Picture" class="profile-pic-modern">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-divider"></div>
+        <!-- Projects Preview Section -->
+        <section class="projects-preview-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-cards">
+                <div class="project-card">
+                    <img src="download.jpg" alt="">
+                    <h3>geo location</h3>
+                    <p>we use map leaflet.</p>
+                    <a href="https://hashir03042122258.github.io/geolocation/" class="project-btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images.png" alt="">
+                    <h3>verfication code generator</h3>
+                    <p>we generate verfication code in local storage</p>
+                    <a href="https://hashir03042122258.github.io/verification-app/" class="project-btn">View Details</a>
+                </div>
+            </div>
+            <a href="projects.html" class="cta-btn" style="margin-top:20px;">View All Projects</a>
+        </section>
+        <div class="section-divider"></div>
+        <!-- Motivational Quote -->
+        <section class="quote-section">
+            <blockquote>“Every expert was once a beginner. Never give up on learning!”</blockquote>
+        </section>
+        <div class="section-divider"></div>
+        <!-- Tools Row -->
+        <section class="tools-section">
+            <h2>Tools I Use</h2>
+            <div class="tools-row">
+                <span class="tool-badge">VS Code</span>
+                <span class="tool-badge">Git</span>
+                <span class="tool-badge">Figma</span>
+                <span class="tool-badge">Chrome DevTools</span>
+            </div>
+        </section>
+        <div class="section-divider"></div>
+        <!-- Fun Fact -->
+        <section class="funfact-section">
+            <h2>Fun Fact</h2>
+            <p>I love solving coding challenges and exploring new tech trends!</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
